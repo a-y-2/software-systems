@@ -1,3 +1,10 @@
+/*
+4. Write a program to open an existing file with read write mode. Try O_EXCL flag also.
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
