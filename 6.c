@@ -1,3 +1,10 @@
+/*
+6. Write a program to take input from STDIN and display on STDOUT. Use only read/write system calls
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
