@@ -1,3 +1,9 @@
+/*Write a program to create a Zombie state of the running program.
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<sys/types.h>
 #include<fcntl.h>
 #include<sys/stat.h>
