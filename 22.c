@@ -1,3 +1,10 @@
+/*Write a program, open a file, call fork, and then write to the file by both the child as well as the
+parent processes. Check output of the file.
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<sys/types.h>
 #include<fcntl.h>
 #include<sys/stat.h>
