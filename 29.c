@@ -1,3 +1,11 @@
+/*
+29. Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO,
+SCHED_RR).
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<sched.h>
