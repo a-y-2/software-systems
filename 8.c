@@ -1,3 +1,11 @@
+/*
+8. Write a program to open a file in read only mode, read line by line and display each line as it is read.
+Close the file when end of file is reached.
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
