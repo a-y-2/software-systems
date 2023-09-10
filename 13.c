@@ -1,3 +1,10 @@
+/*
+13. Write a program to wait for a STDIN for 10 seconds using select. Write a proper print statement to
+verify whether the data is available within 10 seconds or not (check in $man 2 select).
+
+AYUSHI PRASAD
+MT2023145
+	*/
 
 #include<sys/types.h>
 #include<fcntl.h>
