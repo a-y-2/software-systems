@@ -1,4 +1,9 @@
+/*
+15. Write a program to display the environmental variable of the user (use environ).
 
+AYUSHI PRASAD
+MT2023145
+	*/
 #include<sys/types.h>
 #include<fcntl.h>
 #include<sys/stat.h>
