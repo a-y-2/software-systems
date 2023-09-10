@@ -1,3 +1,13 @@
+/*
+11. Write a program to open a file, duplicate the file descriptor and append the file with both the
+descriptors and check whether the file is updated properly or not.
+a. use dup
+b. use dup2
+c. use fcntl
+
+AYUSHI PRASAD
+MT2023145
+*/
 
 #include<sys/types.h>
 #include<fcntl.h>
