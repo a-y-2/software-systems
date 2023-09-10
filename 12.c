@@ -1,3 +1,9 @@
+/*
+12. Write a program to find out the opening mode of a file. Use fcntl.
+
+AYUSHI PRASAD
+MT2023145
+	*/
 
 #include<sys/types.h>
 #include<fcntl.h>
