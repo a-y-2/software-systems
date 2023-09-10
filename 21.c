@@ -1,3 +1,10 @@
+/*
+21. Write a program, call fork and print the parent and child process id.
+
+AYUSHI PRASAD
+MT2023145
+	*/
+
 #include<sys/types.h>
 #include<fcntl.h>
 #include<sys/stat.h>
