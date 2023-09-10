@@ -1,3 +1,10 @@
+/*
+24. Write a program to create an orphan process.
+
+AYUSHI PRASAD
+MT2023145
+	*/
+
 #include<sys/types.h>
 #include<stdlib.h>
 #include<sys/stat.h>
