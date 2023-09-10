@@ -1,3 +1,12 @@
+/*
+16. Write a program to perform mandatory locking.
+a. Implement write lock
+b. Implement read lock
+
+AYUSHI PRASAD
+MT2023145
+	*/
+
 #include<sys/types.h>
 #include<fcntl.h>
 #include<sys/stat.h>
