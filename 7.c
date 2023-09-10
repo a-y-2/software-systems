@@ -1,3 +1,10 @@
+/*
+7. Write a program to copy file1 into file2 ($cp file1 file2).
+
+AYUSHI PRASAD
+MT2023145
+*/
+
 #include<sys/types.h>
 #include<sys/stat.h>
 #include<fcntl.h>
