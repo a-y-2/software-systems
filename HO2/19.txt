@@ -1,0 +1,51 @@
+ayushi@ayushi-Vivobook-ASUSLaptop-X1502ZA-X1502ZA:~/Desktop/HO2$ strace -c  mknod My_fifo p
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         5           read
+  0.00    0.000000           0         8           close
+  0.00    0.000000           0        18           mmap
+  0.00    0.000000           0         5           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         2           pread64
+  0.00    0.000000           0         2         2 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         2 statfs
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         1           set_tid_address
+  0.00    0.000000           0         6           openat
+  0.00    0.000000           0         1           mknodat
+  0.00    0.000000           0         6           newfstatat
+  0.00    0.000000           0         1           set_robust_list
+  0.00    0.000000           0         1           prlimit64
+  0.00    0.000000           0         1           getrandom
+  0.00    0.000000           0         1           rseq
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000           0        67         5 total
+
+
+
+ayushi@ayushi-Vivobook-ASUSLaptop-X1502ZA-X1502ZA:~/Desktop/HO2$ strace -c  mkfifo Myfifo
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+  0.00    0.000000           0         5           read
+  0.00    0.000000           0         8           close
+  0.00    0.000000           0        18           mmap
+  0.00    0.000000           0         5           mprotect
+  0.00    0.000000           0         1           munmap
+  0.00    0.000000           0         3           brk
+  0.00    0.000000           0         2           pread64
+  0.00    0.000000           0         2         2 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         2         2 statfs
+  0.00    0.000000           0         2         1 arch_prctl
+  0.00    0.000000           0         1           set_tid_address
+  0.00    0.000000           0         6           openat
+  0.00    0.000000           0         1           mknodat
+  0.00    0.000000           0         6           newfstatat
+  0.00    0.000000           0         1           set_robust_list
+  0.00    0.000000           0         1           prlimit64
+  0.00    0.000000           0         1           getrandom
+  0.00    0.000000           0         1           rseq
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.000000           0        67         5 total
